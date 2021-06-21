@@ -4,7 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import moze_intel.projecte.PECore;
 import net.minecraft.util.ResourceLocation;
-
+import java.lang.Integer;
 import java.text.DecimalFormat;
 
 public final class Constants 
@@ -19,7 +19,7 @@ public final class Constants
 	public static final float[] EXPLOSIVE_LENS_RADIUS = new float[] {4.0F, 8.0F, 12.0F, 16.0F, 16.0F, 16.0F, 16.0F, 16.0F};
 	public static final int[] EXPLOSIVE_LENS_COST = new int[] {384, 768, 1536, 2304, 2304, 2304, 2304, 2304};
 	
-	public static final int TILE_MAX_EMC = 1073741824;
+	public static final int TILE_MAX_EMC = Integer.MAX_VALUE;
 	
 	public static final int COLLECTOR_MK1_MAX = 10000;
 	public static final int COLLECTOR_MK2_MAX = 30000;
